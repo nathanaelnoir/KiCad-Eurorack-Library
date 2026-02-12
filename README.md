@@ -21,6 +21,10 @@ This repository contains custom KiCad library assets created and curated for per
 | Jack_6.35mm_PJ_629HAN_slots.kicad_mod | [kicad-footprints/Jack_6.35mm_PJ_629HAN_slots.kicad_mod](kicad-footprints/Jack_6.35mm_PJ_629HAN_slots.kicad_mod) | KiCad footprint module (.kicad_mod)
 | Potentiometer_Alpha_RD902F-40-00D_Dual_Vertical_CircularHoles_centered.kicad_mod | [kicad-footprints/Potentiometer_Alpha_RD902F-40-00D_Dual_Vertical_CircularHoles_centered.kicad_mod](kicad-footprints/Potentiometer_Alpha_RD902F-40-00D_Dual_Vertical_CircularHoles_centered.kicad_mod) | KiCad footprint module (.kicad_mod)
 
+Additional footprint library:
+
+- `Eurorack.pretty` — a KiCad footprint library directory containing the above footprints for easy import via KiCad's Footprint Library Manager: [Eurorack.pretty](Eurorack.pretty/)
+
 ### 3D models
 
 | File | Path | Notes |

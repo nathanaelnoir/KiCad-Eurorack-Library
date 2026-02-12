@@ -70,9 +70,9 @@ This is primarily a personal library. If you want to contribute improvements or 
 
 Before merging, test footprints in a board and verify symbol pin mappings and 3D alignment.
 
-## License
+## License & Attribution
 
-No license file is included. These assets are distributed by the repository owner. Contact the owner for reuse permissions or to request a license.
+See [LICENSE.md](LICENSE.md) for information about attribution, ownership, and how to request credit or removal for third-party 3D models included in this repository.
 
 ## Credits & References
 

@@ -10,6 +10,10 @@ A personal collection of KiCad footprints, symbols, and 3D models maintained for
 
 This repository contains custom KiCad library assets created and curated for personal use. It groups footprints, 3D models, and symbols so they can be easily referenced from KiCad projects.
 
+### KiCad blocks
+
+- `Eurorack.kicad_blocks` was added to provide Eurorack-specific reusable blocks, helping speed up design work and improve workflow efficiency.
+
 
 ## Repository layout
 

@@ -1,4 +1,3 @@
-
 ![KiCad](https://img.shields.io/badge/KiCad-9-orange)
 ![Status](https://img.shields.io/badge/Status-Personal-blue)
 
@@ -14,16 +13,16 @@ This repository contains custom KiCad library assets created and curated for per
 
 - `Eurorack.kicad_blocks` was added to provide Eurorack-specific reusable blocks, helping speed up design work and improve workflow efficiency.
 
-
 ## Repository layout
 
 ### Footprints
 
 | File | Path | Notes |
 |---|---|---|
-| Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical.kicad_mod | [kicad-footprints/Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical.kicad_mod](kicad-footprints/Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical.kicad_mod) | KiCad footprint module (.kicad_mod)
-| Jack_6.35mm_PJ_629HAN_slots.kicad_mod | [kicad-footprints/Jack_6.35mm_PJ_629HAN_slots.kicad_mod](kicad-footprints/Jack_6.35mm_PJ_629HAN_slots.kicad_mod) | KiCad footprint module (.kicad_mod)
-| Potentiometer_Alpha_RD902F-40-00D_Dual_Vertical_CircularHoles_centered.kicad_mod | [kicad-footprints/Potentiometer_Alpha_RD902F-40-00D_Dual_Vertical_CircularHoles_centered.kicad_mod](kicad-footprints/Potentiometer_Alpha_RD902F-40-00D_Dual_Vertical_CircularHoles_centered.kicad_mod) | KiCad footprint module (.kicad_mod)
+| CD4017BE_THT.kicad_mod | [kicad-footprints/CD4017BE_THT.kicad_mod](kicad-footprints/CD4017BE_THT.kicad_mod) | KiCad footprint module (.kicad_mod) |
+| Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical.kicad_mod | [kicad-footprints/Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical.kicad_mod](kicad-footprints/Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical.kicad_mod) | KiCad footprint module (.kicad_mod) |
+| Jack_6.35mm_PJ_629HAN_slots.kicad_mod | [kicad-footprints/Jack_6.35mm_PJ_629HAN_slots.kicad_mod](kicad-footprints/Jack_6.35mm_PJ_629HAN_slots.kicad_mod) | KiCad footprint module (.kicad_mod) |
+| Potentiometer_Alpha_RD902F-40-00D_Dual_Vertical_CircularHoles_centered.kicad_mod | [kicad-footprints/Potentiometer_Alpha_RD902F-40-00D_Dual_Vertical_CircularHoles_centered.kicad_mod](kicad-footprints/Potentiometer_Alpha_RD902F-40-00D_Dual_Vertical_CircularHoles_centered.kicad_mod) | KiCad footprint module (.kicad_mod) |
 
 Additional footprint library:
 
@@ -33,17 +32,19 @@ Additional footprint library:
 
 | File | Path | Notes |
 |---|---|---|
-| PJ398SM_Hex_nut.step | [kicad-packages3d/PJ398SM_Hex_nut.step](kicad-packages3d/PJ398SM_Hex_nut.step) | STEP model used by PJ398SM footprints
-| PJ398SM_Knurl_nut.step | [kicad-packages3d/PJ398SM_Knurl_nut.step](kicad-packages3d/PJ398SM_Knurl_nut.step) | STEP model used by PJ398SM footprints
-| PJ398SM.step | [kicad-packages3d/PJ398SM.step](kicad-packages3d/PJ398SM.step) | Main PJ398SM STEP model
-| RD902F-40-00D.stp | [kicad-packages3d/RD902F-40-00D.stp](kicad-packages3d/RD902F-40-00D.stp) | Potentiometer 3D model (STEP)
-| SJ-63083A.STEP | [kicad-packages3d/SJ-63083A.STEP](kicad-packages3d/SJ-63083A.STEP) | Misc 3D model (STEP)
+| N0016A.stp | [kicad-packages3d/N0016A.stp](kicad-packages3d/N0016A.stp) | 3D model for DIP-16 / CD4017BE package |
+| PJ398SM_Hex_nut.step | [kicad-packages3d/PJ398SM_Hex_nut.step](kicad-packages3d/PJ398SM_Hex_nut.step) | STEP model used by PJ398SM footprints |
+| PJ398SM_Knurl_nut.step | [kicad-packages3d/PJ398SM_Knurl_nut.step](kicad-packages3d/PJ398SM_Knurl_nut.step) | STEP model used by PJ398SM footprints |
+| PJ398SM.step | [kicad-packages3d/PJ398SM.step](kicad-packages3d/PJ398SM.step) | Main PJ398SM STEP model |
+| RD902F-40-00D.stp | [kicad-packages3d/RD902F-40-00D.stp](kicad-packages3d/RD902F-40-00D.stp) | Potentiometer 3D model (STEP) |
+| SJ-63083A.STEP | [kicad-packages3d/SJ-63083A.STEP](kicad-packages3d/SJ-63083A.STEP) | Misc 3D model (STEP) |
 
 ### Symbols
 
 | File | Path | Notes |
 |---|---|---|
-| (none yet) | [kicad-symbols](kicad-symbols/) | Schematic symbols and symbol library files — currently empty.
+| cd4017be.kicad_sym | [kicad-symbols/cd4017be.kicad_sym](kicad-symbols/cd4017be.kicad_sym) | KiCad schematic symbol library for CD4017BE |
+| Eurorack.kicad_sym | [kicad-symbols/Eurorack.kicad_sym](kicad-symbols/Eurorack.kicad_sym) | KiCad schematic symbol library for Eurorack-related parts |
 
 ## Recommended KiCad versions
 
@@ -62,8 +63,9 @@ Tip: For project-specific use, copy needed footprints or symbols into your proje
 
 ## Naming & Conventions
 
-- Footprints use descriptive names matching the component (e.g., connector, potentiometer, jack) and may include the vendor/model identifier.
+- Footprints use descriptive names matching the component (e.g., connector, potentiometer, jack, IC) and may include the vendor/model identifier.
 - 3D models are provided in STEP format for mechanical integration in PCB assemblies.
+- Symbols are grouped into KiCad symbol library files for reuse across projects.
 
 ## Contribution
 

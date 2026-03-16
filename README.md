@@ -1,90 +1,127 @@
-![KiCad](https://img.shields.io/badge/KiCad-9-orange)
-![Status](https://img.shields.io/badge/Status-Personal-blue)
+# MyKiCad
 
-# MyKiCad — Personal KiCad Library
+Personal KiCad library repository for reusable symbols, footprints, 3D models, drawing sheet assets, and Eurorack-oriented schematic blocks.
 
-A personal collection of KiCad footprints, symbols, and 3D models maintained for small projects and reuse. NOTE: I use these libraries with KiCad 9 only.
+This repository is maintained for KiCad 9 workflows and is intended to keep the mechanical, schematic, and PCB assets for recurring parts in one place.
 
-## Overview
+## What is included
 
-This repository contains custom KiCad library assets created and curated for personal use. It groups footprints, 3D models, and symbols so they can be easily referenced from KiCad projects.
+The current library set contains:
 
-### KiCad blocks
+- Custom and imported schematic symbols in `kicad-symbols/`
+- Raw footprint source files in `kicad-footprints/`
+- A packaged KiCad footprint library in `Eurorack.pretty/`
+- STEP 3D models in `kicad-packages3d/`
+- Reusable schematic blocks in `Eurorack.kicad_blocks/`
+- A custom worksheet template in `kicad-templates/`
 
-- `Eurorack.kicad_blocks` was added to provide Eurorack-specific reusable blocks, helping speed up design work and improve workflow efficiency.
+At the moment, the repository is centered on Eurorack panel hardware, supporting power-entry blocks, and a small set of reusable components such as jacks, potentiometers, switches, and a CD4017-based design part.
 
-## Repository layout
+## Repository structure
 
-### Footprints
+| Path | Purpose |
+| --- | --- |
+| `kicad-symbols/` | Symbol libraries and imported part symbols |
+| `kicad-footprints/` | Raw footprint source files, including parts not yet mirrored into `Eurorack.pretty` |
+| `Eurorack.pretty/` | Footprint library directory ready to add through KiCad's Footprint Library Manager |
+| `kicad-packages3d/` | STEP models used by the custom footprints |
+| `Eurorack.kicad_blocks/` | Reusable schematic blocks for power and subsystem building |
+| `kicad-templates/` | KiCad worksheet template assets |
 
-| File | Path | Notes |
-|---|---|---|
-| CD4017BE_THT.kicad_mod | [kicad-footprints/CD4017BE_THT.kicad_mod](kicad-footprints/CD4017BE_THT.kicad_mod) | KiCad footprint module (.kicad_mod) |
-| Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical.kicad_mod | [kicad-footprints/Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical.kicad_mod](kicad-footprints/Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical.kicad_mod) | KiCad footprint module (.kicad_mod) |
-| Jack_6.35mm_PJ_629HAN_slots.kicad_mod | [kicad-footprints/Jack_6.35mm_PJ_629HAN_slots.kicad_mod](kicad-footprints/Jack_6.35mm_PJ_629HAN_slots.kicad_mod) | KiCad footprint module (.kicad_mod) |
-| Potentiometer_Alpha_RD902F-40-00D_Dual_Vertical_CircularHoles_centered.kicad_mod | [kicad-footprints/Potentiometer_Alpha_RD902F-40-00D_Dual_Vertical_CircularHoles_centered.kicad_mod](kicad-footprints/Potentiometer_Alpha_RD902F-40-00D_Dual_Vertical_CircularHoles_centered.kicad_mod) | KiCad footprint module (.kicad_mod) |
-
-Additional footprint library:
-
-- `Eurorack.pretty` — a KiCad footprint library directory containing the above footprints for easy import via KiCad's Footprint Library Manager: [Eurorack.pretty](Eurorack.pretty/)
-
-### 3D models
-
-| File | Path | Notes |
-|---|---|---|
-| N0016A.stp | [kicad-packages3d/N0016A.stp](kicad-packages3d/N0016A.stp) | 3D model for DIP-16 / CD4017BE package |
-| PJ398SM_Hex_nut.step | [kicad-packages3d/PJ398SM_Hex_nut.step](kicad-packages3d/PJ398SM_Hex_nut.step) | STEP model used by PJ398SM footprints |
-| PJ398SM_Knurl_nut.step | [kicad-packages3d/PJ398SM_Knurl_nut.step](kicad-packages3d/PJ398SM_Knurl_nut.step) | STEP model used by PJ398SM footprints |
-| PJ398SM.step | [kicad-packages3d/PJ398SM.step](kicad-packages3d/PJ398SM.step) | Main PJ398SM STEP model |
-| RD902F-40-00D.stp | [kicad-packages3d/RD902F-40-00D.stp](kicad-packages3d/RD902F-40-00D.stp) | Potentiometer 3D model (STEP) |
-| SJ-63083A.STEP | [kicad-packages3d/SJ-63083A.STEP](kicad-packages3d/SJ-63083A.STEP) | Misc 3D model (STEP) |
+## Library contents
 
 ### Symbols
 
-| File | Path | Notes |
-|---|---|---|
-| cd4017be.kicad_sym | [kicad-symbols/cd4017be.kicad_sym](kicad-symbols/cd4017be.kicad_sym) | KiCad schematic symbol library for CD4017BE |
-| Eurorack.kicad_sym | [kicad-symbols/Eurorack.kicad_sym](kicad-symbols/Eurorack.kicad_sym) | KiCad schematic symbol library for Eurorack-related parts |
+The symbol folder currently includes these usable symbol libraries:
 
-## Recommended KiCad versions
+| File | Main symbol(s) |
+| --- | --- |
+| `kicad-symbols/cd4017be.kicad_sym` | `CD4017BE`, `RD901F` |
+| `kicad-symbols/RD901F-40-15R1-B100K-00DL1.kicad_sym` | `RD901F-40-15R1-B100K-00DL1` |
+| `kicad-symbols/1MS1T1B1M2QES.kicad_sym` | `1MS1T1B1M2QES` |
 
-These files are intended for KiCad 9. They may work with other versions, but compatibility is not guaranteed.
+Also present:
 
-## Installation / Usage
+- `kicad-symbols/Eurorack.kicad_sym` currently exists as a minimal library file and does not yet contain symbol definitions.
+- `kicad-symbols/cd4017be.bak` is a backup file and is not needed for normal KiCad library setup.
 
-1. Copy or symlink the `kicad-footprints`, `kicad-packages3d`, and `kicad-symbols` folders into a location that your KiCad installation can access (for example, a dedicated library folder).
-2. In KiCad, add the libraries via the library managers:
-   - Footprints: Preferences → Manage Footprint Libraries
-   - Symbols: Preferences → Manage Symbol Libraries
-   - 3D models are referenced from footprint `.kicad_mod` entries; ensure `kicad-packages3d` is reachable by the footprint paths.
-3. When adding libraries, prefer using relative paths or absolute paths that will be stable across your environment.
+### Footprints
 
-Tip: For project-specific use, copy needed footprints or symbols into your project's library tables to avoid global changes.
+`Eurorack.pretty/` is the packaged footprint library that is most convenient to register in KiCad. It currently contains:
 
-## Naming & Conventions
+- `CD4017BE THT`
+- `Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical`
+- `Jack_6.35mm_PJ_629HAN_slots`
+- `Potentiometer_Alpha_RD902F-40-00D_Dual_Vertical_CircularHoles_centered`
+- `RD901F`
 
-- Footprints use descriptive names matching the component (e.g., connector, potentiometer, jack, IC) and may include the vendor/model identifier.
-- 3D models are provided in STEP format for mechanical integration in PCB assemblies.
-- Symbols are grouped into KiCad symbol library files for reuse across projects.
+`kicad-footprints/` contains the raw footprint sources, including additional parts that are not currently mirrored into `Eurorack.pretty/`:
 
-## Contribution
+- `1MS1T1B1M2QES.kicad_mod`
+- `POT_RD901F-40-15R1-B100K-00DL1.kicad_mod`
 
-This is primarily a personal library. If you want to contribute improvements or additional parts:
+This split is useful if you want to keep a clean, user-facing footprint library while still storing imported or in-progress footprint sources in the repository.
 
-- Fork the repository and submit a pull request with the new/updated files.
-- Include a short description of the part, the tested KiCad version, and any 3D source or vendor links.
+### 3D models
 
-Before merging, test footprints in a board and verify symbol pin mappings and 3D alignment.
+The `kicad-packages3d/` folder currently includes STEP models for:
 
-## License & Attribution
+- `1MS1T1B1M2QES`
+- `N0016A`
+- `PJ398SM`
+- `PJ398SM_Hex_nut`
+- `PJ398SM_Knurl_nut`
+- `RD901F-40-15F`
+- `RD902F-40-00D`
+- `SJ-63083A`
 
-See [LICENSE.md](LICENSE.md) for information about attribution, ownership, and how to request credit or removal for third-party 3D models included in this repository.
+### KiCad blocks
 
-## Credits & References
+The repository currently includes three reusable schematic blocks:
 
-- Generated and maintained by the repository owner for personal and small-team use.
-- Where applicable, parts reference vendor datasheets and 3D model sources — see individual files for details.
+- `Europower +12 -12 GND (SMD Version)`
+- `Eurorack +12 -12 5 GND (SMD Version)`
+- `Power for TL074 (SMD Version)`
 
-## Contact
+These blocks are intended to speed up repeated schematic entry for common power arrangements and subsystem fragments.
 
-For questions, improvements, or reuse requests, open an issue or send a pull request in this repository.
+### Templates
+
+The template folder currently contains:
+
+- `Template with logo.kicad_wks`
+
+## KiCad setup
+
+### Recommended approach
+
+1. Add `Eurorack.pretty/` as a footprint library in KiCad.
+2. Add the required `.kicad_sym` files from `kicad-symbols/` through the Symbol Library Manager.
+3. Keep `kicad-packages3d/` available on a stable local path so 3D models can be remapped cleanly where needed.
+4. Add `Eurorack.kicad_blocks/` only if you use KiCad block workflows and want the reusable power fragments available in the editor.
+
+### Notes about paths and portability
+
+Some footprints in this repository still contain machine-specific absolute 3D model references from earlier workstations. In practice this means:
+
+- The footprint geometry is usable as-is.
+- 3D previews may need path cleanup or remapping on a new machine.
+- If you want the repository to be portable across systems, prefer updating model paths to a consistent KiCad path variable or a repository-relative workflow in your local setup.
+
+## Compatibility
+
+This repository is maintained for KiCad 9. Some assets originated from imported or older library sources, but the active workflow target is KiCad 9 and that is the version the library should be considered validated against.
+
+## Attribution and licensing
+
+See `LICENSE.md` for the current attribution note related to third-party 3D models. Some STEP files in `kicad-packages3d/` were not created by the repository owner and may require separate attribution or reuse permission from the original author.
+
+## Use and maintenance
+
+This is primarily a personal working library. The main goal is practical reuse: keep validated parts together, reduce repeated setup work, and preserve the schematic, footprint, and 3D assets needed for future projects.
+
+If this repository grows further, the next logical cleanup steps are:
+
+- consolidate symbol naming and file naming
+- mirror missing raw footprints into the packaged library where appropriate
+- normalize 3D model paths for cross-machine portability

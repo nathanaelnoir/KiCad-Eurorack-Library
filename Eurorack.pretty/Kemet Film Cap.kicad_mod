@@ -1,0 +1,226 @@
+(footprint "Kemet Film Cap"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "R82DC4100AA60J-1")
+	(tags "Capacitor")
+	(property "Reference" "C**"
+		(at 2.5 0 0)
+		(layer "F.SilkS")
+		(uuid "b513d3f2-019a-4368-a767-69f25fe3e106")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "R82DC4100AA60J"
+		(at 2.5 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0828fe58-8118-4a82-951a-2d443fdf9160")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5bf58173-fe32-4a94-9852-bb3d735c1d70")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a6d53f8-af62-409b-8cf6-c748a8753b0a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.1 -2.5)
+		(end 6.1 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5a78d9cc-166c-4633-9745-3f1419545c4e")
+	)
+	(fp_line
+		(start -1.1 2.5)
+		(end -1.1 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7a9a960b-b842-4081-b35b-e0b25af0797a")
+	)
+	(fp_line
+		(start 6.1 -2.5)
+		(end 6.1 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "01a3e3e6-c580-4f81-9dba-78ffdfe64b01")
+	)
+	(fp_line
+		(start 6.1 2.5)
+		(end -1.1 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d4c3dc66-75c5-4203-b883-5321ea5327d8")
+	)
+	(fp_line
+		(start -2.1 -3.5)
+		(end 7.1 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "28f8147b-50d2-4afe-b646-2becbdd2e31d")
+	)
+	(fp_line
+		(start -2.1 3.5)
+		(end -2.1 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d752a002-32c6-47d0-8f59-6482f4656002")
+	)
+	(fp_line
+		(start 7.1 -3.5)
+		(end 7.1 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9b3143ea-db99-44a0-90b0-6c10644e13c2")
+	)
+	(fp_line
+		(start 7.1 3.5)
+		(end -2.1 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a8e5fa3e-79c4-4c40-a26b-2e277ba26df1")
+	)
+	(fp_line
+		(start -1.1 -2.5)
+		(end 6.1 -2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "da0bc7a3-4d55-4419-b03c-b9f88e2cd578")
+	)
+	(fp_line
+		(start -1.1 2.5)
+		(end -1.1 -2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "681703c3-1f79-4590-8704-317ebcd5c2cf")
+	)
+	(fp_line
+		(start 6.1 -2.5)
+		(end 6.1 2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "25d1fcd9-4b03-416b-a1ae-d2182f67651b")
+	)
+	(fp_line
+		(start 6.1 2.5)
+		(end -1.1 2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e3eb865f-5828-4978-9963-a665fd92562a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.5 0 0)
+		(layer "F.Fab")
+		(uuid "0596cec7-4761-48de-a113-108c2b0fc336")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f8a70a3b-8756-46f2-a8b9-2f4163af82e3")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6286f050-b5fb-4f9a-9406-3b54673642cd")
+	)
+	(embedded_fonts no)
+	(model "R82DC4100AA60J.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "/Users/sarahmair/Documents/KiCad/KiCad-Eurorack-Library/kicad-packages3d/Kemet Film Cap.stp"
+		(offset
+			(xyz -1.25 2.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

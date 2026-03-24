@@ -7,7 +7,7 @@
     (property "Value" "RD901F-40-15R1-B100K-00DL1" (id 1) (at -5.08 2.54 0)
       (effects (font (size 1.27 1.27)) (justify bottom left))
     )
-    (property "Footprint" "RD901F-40-15R1-B100K-00DL1:POT_RD901F-40-15R1-B100K-00DL1" (id 2) (at 0 0 0)
+    (property "Footprint" "Eurorack:POT_RD901F-40-15R1-B100K-00DL1" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "MF" "Alpha (Taiwan)" (id 4) (at 0 0 0)

@@ -9,8 +9,7 @@ This repository is maintained for KiCad 9 workflows and is intended to keep the 
 The current library set contains:
 
 - Custom and imported schematic symbols in `kicad-symbols/`
-- Raw footprint source files in `kicad-footprints/`
-- A packaged KiCad footprint library in `Eurorack.pretty/`
+- A KiCad footprint library in `Eurorack.pretty/`
 - STEP 3D models in `kicad-packages3d/`
 - Reusable schematic blocks in `Eurorack.kicad_blocks/`
 - A custom worksheet template in `kicad-templates/`
@@ -22,7 +21,6 @@ At the moment, the repository is centered on Eurorack panel hardware, supporting
 | Path | Purpose |
 | --- | --- |
 | `kicad-symbols/` | Symbol libraries and imported part symbols |
-| `kicad-footprints/` | Raw footprint source files, including parts not yet mirrored into `Eurorack.pretty` |
 | `Eurorack.pretty/` | Footprint library directory ready to add through KiCad's Footprint Library Manager |
 | `kicad-packages3d/` | STEP models used by the custom footprints |
 | `Eurorack.kicad_blocks/` | Reusable schematic blocks for power and subsystem building |
@@ -49,18 +47,18 @@ Also present:
 
 `Eurorack.pretty/` is the packaged footprint library that is most convenient to register in KiCad. It currently contains:
 
+- `1 Pole 8 Step Switch Alpha`
+- `2MS1T1B1M2QES`
+- `3296W1503LF`
 - `CD4017BE THT`
 - `Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical`
 - `Jack_6.35mm_PJ_629HAN_slots`
+- `Kemet Film Cap`
+- `POT_RD901F-40-15R1-B100K-00DL1`
 - `Potentiometer_Alpha_RD902F-40-00D_Dual_Vertical_CircularHoles_centered`
 - `RD901F`
-
-`kicad-footprints/` contains the raw footprint sources, including additional parts that are not currently mirrored into `Eurorack.pretty/`:
-
-- `1MS1T1B1M2QES.kicad_mod`
-- `POT_RD901F-40-15R1-B100K-00DL1.kicad_mod`
-
-This split is useful if you want to keep a clean, user-facing footprint library while still storing imported or in-progress footprint sources in the repository.
+- `RD901F_1`
+- `SR1712F010820F0AN9N027`
 
 ### 3D models
 
@@ -123,5 +121,5 @@ This is primarily a personal working library. The main goal is practical reuse: 
 If this repository grows further, the next logical cleanup steps are:
 
 - consolidate symbol naming and file naming
-- mirror missing raw footprints into the packaged library where appropriate
+- consolidate footprint naming where imported parts still use inconsistent names
 - normalize 3D model paths for cross-machine portability

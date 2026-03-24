@@ -1,4 +1,4 @@
-# MyKiCad
+# Eurorack KiCad Library
 
 Personal KiCad library repository for reusable symbols, footprints, 3D models, drawing sheet assets, and Eurorack-oriented schematic blocks.
 

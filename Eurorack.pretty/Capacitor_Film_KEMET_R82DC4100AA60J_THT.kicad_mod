@@ -6,7 +6,7 @@
 	(descr "R82DC4100AA60J-1")
 	(tags "Capacitor")
 	(property "Reference" "C**"
-		(at 2.5 0 0)
+		(at 2.5 -0.5 0)
 		(layer "F.SilkS")
 		(uuid "b513d3f2-019a-4368-a767-69f25fe3e106")
 		(effects
@@ -16,15 +16,14 @@
 			)
 		)
 	)
-	(property "Value" "R82DC4100AA60J"
-		(at 2.5 0 0)
+	(property "Value" "Value"
+		(at 0 -4.5 0)
 		(layer "F.SilkS")
-		(hide yes)
 		(uuid "0828fe58-8118-4a82-951a-2d443fdf9160")
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
+				(size 1 1)
+				(thickness 0.25)
 			)
 		)
 	)
@@ -213,6 +212,17 @@
 		)
 	)
 	(model "C:/Users/eniederwieser/OneDrive - Fraunhofer Italia Research SCARL/Documents/MyKiCad/Eurorack-3dmodels/Capacitor_Film_KEMET_R82DC4100AA60J_THT.stp"
+		(offset
+			(xyz -1.2 2.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+	(model "/Users/sarahmair/Documents/KiCad/KiCad-Eurorack-Library/Eurorack-3dmodels/Capacitor_Film_KEMET_R82DC4100AA60J_THT.stp"
 		(offset
 			(xyz -1.2 2.5 0)
 		)

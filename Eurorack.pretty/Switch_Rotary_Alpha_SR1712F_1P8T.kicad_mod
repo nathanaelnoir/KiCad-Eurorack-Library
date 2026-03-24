@@ -6,7 +6,7 @@
 	(descr "SR1712F-0108-20F0A-N9-N-027")
 	(tags "Switch")
 	(property "Reference" "S**"
-		(at -5 -9.475 0)
+		(at -13.75 -22.5 0)
 		(layer "F.SilkS")
 		(uuid "ea370a3f-3cf2-47e2-a111-09993c1a233d")
 		(effects
@@ -348,6 +348,17 @@
 	(model "C:/Users/eniederwieser/OneDrive - Fraunhofer Italia Research SCARL/Documents/MyKiCad/Eurorack-3dmodels/Switch_Rotary_Alpha_SR1712F_1P8T.stp"
 		(offset
 			(xyz -5 10.2 -0.2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+	(model "/Users/sarahmair/Documents/KiCad/KiCad-Eurorack-Library/Eurorack-3dmodels/Switch_Rotary_Alpha_SR1712F_1P8T.stp"
+		(offset
+			(xyz -5 10.2 -0.5)
 		)
 		(scale
 			(xyz 1 1 1)

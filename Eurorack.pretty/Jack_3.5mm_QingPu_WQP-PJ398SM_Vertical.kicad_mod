@@ -400,4 +400,26 @@
 			(xyz 0 0 0)
 		)
 	)
+	(model "/Users/sarahmair/Documents/KiCad/KiCad-Eurorack-Library/Eurorack-3dmodels/Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "/Users/sarahmair/Documents/KiCad/KiCad-Eurorack-Library/Eurorack-3dmodels/Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_Knurl_nut.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

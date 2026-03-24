@@ -6,7 +6,7 @@
 	(descr "THT")
 	(tags "CD4017BE ")
 	(property "Reference" "REF**"
-		(at -3.81 -8.89 0)
+		(at -4 -16.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "b9bad1ed-6354-4dd4-b85a-9df3bbfb5a5d")
@@ -18,9 +18,9 @@
 		)
 	)
 	(property "Value" "CD4017BE"
-		(at -3.81 -8.89 0)
+		(at -3.75 -8.5 90)
 		(unlocked yes)
-		(layer "F.Fab")
+		(layer "F.SilkS")
 		(uuid "8c830dae-63f3-4524-b5bf-1cf20f9e19a0")
 		(effects
 			(font
@@ -1157,6 +1157,17 @@
 	(model "C:/Users/eniederwieser/OneDrive - Fraunhofer Italia Research SCARL/Documents/MyKiCad/Eurorack-3dmodels/IC_DIP-16_CD4017BE_THT.stp"
 		(offset
 			(xyz -3.75 9 2.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+	(model "/Users/sarahmair/Documents/KiCad/KiCad-Eurorack-Library/Eurorack-3dmodels/IC_DIP-16_CD4017BE_THT.stp"
+		(offset
+			(xyz -3.7 8.8 2)
 		)
 		(scale
 			(xyz 1 1 1)

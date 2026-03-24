@@ -6,7 +6,7 @@
 	(descr "3296W-1")
 	(tags "Variable Resistor")
 	(property "Reference" "VR**"
-		(at -2.54 0.005 0)
+		(at -6 -4.75 0)
 		(layer "F.SilkS")
 		(uuid "c9702831-7288-44bf-9988-6d69fcfd31f3")
 		(effects
@@ -16,10 +16,9 @@
 			)
 		)
 	)
-	(property "Value" "Trimmer_Bourns_3296W_50k_THT"
-		(at -2.54 0.005 0)
+	(property "Value" "Value"
+		(at -5.75 4.5 0)
 		(layer "F.SilkS")
-		(hide yes)
 		(uuid "c188e59d-e9ce-48d9-8046-f1bfd5659ddd")
 		(effects
 			(font
@@ -263,6 +262,17 @@
 		)
 	)
 	(model "C:/Users/eniederwieser/OneDrive - Fraunhofer Italia Research SCARL/Documents/MyKiCad/Eurorack-3dmodels/Trimmer_Bourns_3296W_50k_THT.stp"
+		(offset
+			(xyz 2.2 2 10)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -90 90)
+		)
+	)
+	(model "/Users/sarahmair/Documents/KiCad/KiCad-Eurorack-Library/Eurorack-3dmodels/Trimmer_Bourns_3296W_50k_THT.stp"
 		(offset
 			(xyz 2.2 2 10)
 		)

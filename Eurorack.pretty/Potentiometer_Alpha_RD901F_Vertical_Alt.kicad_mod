@@ -15,7 +15,7 @@
 		)
 	)
 	(property "Value" "Potentiometer_Alpha_RD901F_Vertical_Alt"
-		(at 9.475 7.5 0)
+		(at 2.75 7.5 0)
 		(layer "F.Fab")
 		(uuid "c5ed8fdb-8ec1-4976-8ef3-30d5d2192a59")
 		(effects
@@ -279,6 +279,17 @@
 		)
 		(rotate
 			(xyz -90 -0 90)
+		)
+	)
+	(model "/Users/sarahmair/Documents/KiCad/KiCad-Eurorack-Library/Eurorack-3dmodels/Potentiometer_Alpha_RD901F_Vertical.stp"
+		(offset
+			(xyz 0 0 -1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 180 -90)
 		)
 	)
 )

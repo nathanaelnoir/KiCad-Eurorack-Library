@@ -303,4 +303,15 @@
 			(xyz -90 -0 -0)
 		)
 	)
+	(model "/Users/sarahmair/Documents/KiCad/KiCad-Eurorack-Library/Eurorack-3dmodels/Jack_6.35mm_PJ-629HAN_THT_Slotted.step"
+		(offset
+			(xyz 0 0 3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

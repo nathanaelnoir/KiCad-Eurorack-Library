@@ -336,7 +336,18 @@
 	(embedded_fonts no)
 	(model "${KICAD_USER_3DMODEL_DIR}/Switch_Rotary_Alpha_SR1712F_1P8T.stp"
 		(offset
-			(xyz -5 10.25 0.94)
+			(xyz -5 10.25 1.94)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+	(model "C:/Users/eniederwieser/OneDrive - Fraunhofer Italia Research SCARL/Documents/MyKiCad/Eurorack-3dmodels/Switch_Rotary_Alpha_SR1712F_1P8T.stp"
+		(offset
+			(xyz -5 10.2 -0.2)
 		)
 		(scale
 			(xyz 1 1 1)

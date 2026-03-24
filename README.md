@@ -36,7 +36,7 @@ Current symbols in that library:
 
 | File | Main symbol(s) |
 | --- | --- |
-| `Eurorack-symbols/Eurorack.kicad_sym` | `CD4017BE`, `RD901F`, `SR1712F-0108-20F0A-N9-N-027`, `1MS1T1B1M2QES`, `RD901F-40-15R1-B100K-00DL1` |
+| `Eurorack-symbols/Eurorack.kicad_sym` | `IC_DIP-16_CD4017BE_THT`, `Potentiometer_Alpha_RD901F_Vertical`, `Switch_Rotary_Alpha_SR1712F_1P8T`, `Switch_Toggle_Dailywell_MS1T1B1M2QES_SPDT`, `Potentiometer_Alpha_RD901F_B100K_Vertical` |
 
 The old split symbol files and backup file were removed as part of the consolidation.
 
@@ -122,13 +122,13 @@ The template folder currently contains:
 
 ### Symbol to footprint links
 
-The current symbols in `Eurorack-symbols/Eurorack.kicad_sym` point at the renamed footprints as follows:
+The current symbols in `Eurorack-symbols/Eurorack.kicad_sym` now use the same names as their matching footprints:
 
-- `CD4017BE` uses `Eurorack:IC_DIP-16_CD4017BE_THT`
-- `RD901F` uses `Eurorack:Potentiometer_Alpha_RD901F_Vertical`
-- `SR1712F-0108-20F0A-N9-N-027` uses `Eurorack:Switch_Rotary_Alpha_SR1712F_1P8T`
-- `RD901F-40-15R1-B100K-00DL1` uses `Eurorack:Potentiometer_Alpha_RD901F_B100K_Vertical`
-- `1MS1T1B1M2QES` uses `Eurorack:Switch_Toggle_Dailywell_MS1T1B1M2QES_SPDT`
+- `IC_DIP-16_CD4017BE_THT`
+- `Potentiometer_Alpha_RD901F_Vertical`
+- `Switch_Rotary_Alpha_SR1712F_1P8T`
+- `Potentiometer_Alpha_RD901F_B100K_Vertical`
+- `Switch_Toggle_Dailywell_MS1T1B1M2QES_SPDT`
 
 ### Notes about paths and portability
 
@@ -152,6 +152,6 @@ This is primarily a personal working library. The main goal is practical reuse: 
 
 If this repository grows further, the next logical cleanup steps are:
 
-- decide whether the consolidated symbol library should keep the imported part-number symbol names or adopt more descriptive symbol names
+- decide whether any symbols should also keep short aliases in addition to the footprint-matching names
 - decide whether the remaining `_Alt` footprint variants should be merged or removed
 - decide whether the remaining `_Alt` STEP variants should be merged or removed

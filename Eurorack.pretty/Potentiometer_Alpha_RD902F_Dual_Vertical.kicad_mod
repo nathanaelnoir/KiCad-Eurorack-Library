@@ -331,4 +331,15 @@
 			(xyz -0 -0 90)
 		)
 	)
+	(model "C:/Users/eniederwieser/OneDrive - Fraunhofer Italia Research SCARL/Documents/MyKiCad/Eurorack-3dmodels/Potentiometer_Alpha_RD902F_Dual_Vertical.stp"
+		(offset
+			(xyz 0 0 -1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
 )

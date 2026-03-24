@@ -262,4 +262,15 @@
 			(xyz -90 -0 90)
 		)
 	)
+	(model "C:/Users/eniederwieser/OneDrive - Fraunhofer Italia Research SCARL/Documents/MyKiCad/Eurorack-3dmodels/Switch_Toggle_Dailywell_MS1T1B1M2QES_SPDT.stp"
+		(offset
+			(xyz 0 2.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
 )

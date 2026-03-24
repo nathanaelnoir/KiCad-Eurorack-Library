@@ -2,7 +2,7 @@
     (version 20241209)
     (generator "kicad_symbol_editor")
     (generator_version "9.0")
-	(symbol "CD4017BE"
+	(symbol "IC_DIP-16_CD4017BE_THT"
 		(pin_names
 			(offset 0.254)
 		)
@@ -17,7 +17,7 @@
 				)
 			)
 		)
-		(property "Value" "CD4017BE"
+		(property "Value" "IC_DIP-16_CD4017BE_THT"
 			(at 16.51 7.62 0)
 			(effects
 				(font
@@ -72,7 +72,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "CD4017BE_0_1"
+		(symbol "IC_DIP-16_CD4017BE_THT_0_1"
 			(polyline
 				(pts
 					(xy 7.62 5.08) (xy 7.62 -22.86)
@@ -260,7 +260,7 @@
 				)
 			)
 		)
-		(symbol "CD4017BE_1_1"
+		(symbol "IC_DIP-16_CD4017BE_THT_1_1"
 			(polyline
 				(pts
 					(xy 7.62 5.08) (xy 25.4 5.08)
@@ -414,7 +414,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "RD901F"
+	(symbol "Potentiometer_Alpha_RD901F_Vertical"
 		(pin_names
 			(offset 1.016)
 		)
@@ -430,7 +430,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "RD901F"
+		(property "Value" "Potentiometer_Alpha_RD901F_Vertical"
 			(at -5.08 2.54 0)
 			(effects
 				(font
@@ -587,7 +587,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "RD901F_0_0"
+		(symbol "Potentiometer_Alpha_RD901F_Vertical_0_0"
 			(polyline
 				(pts
 					(xy -5.08 0) (xy -4.572 0)
@@ -781,7 +781,7 @@
 				)
 			)
 		)
-		(symbol "RD901F_1_0"
+		(symbol "Potentiometer_Alpha_RD901F_Vertical_1_0"
 			(pin passive line
 				(at -7.62 0 0)
 				(length 2.54)
@@ -803,7 +803,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "SR1712F-0108-20F0A-N9-N-027"
+	(symbol "Switch_Rotary_Alpha_SR1712F_1P8T"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -816,7 +816,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "SR1712F-0108-20F0A-N9-N-027"
+		(property "Value" "Switch_Rotary_Alpha_SR1712F_1P8T"
 			(at 2.286 10.668 0)
 			(effects
 				(font
@@ -904,7 +904,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "SR1712F-0108-20F0A-N9-N-027_0_1"
+		(symbol "Switch_Rotary_Alpha_SR1712F_1P8T_0_1"
 			(polyline
 				(pts
 					(xy 5.08 -3.81) (xy 7.62 -7.62)
@@ -1185,7 +1185,7 @@
 				)
 			)
 		)
-		(symbol "SR1712F-0108-20F0A-N9-N-027_1_1"
+		(symbol "Switch_Rotary_Alpha_SR1712F_1P8T_1_1"
 			(rectangle
 				(start 5.08 7.62)
 				(end 26.416 -21.59)
@@ -1440,11 +1440,11 @@
 		)
 		(embedded_fonts no)
 	)
-  (symbol "1MS1T1B1M2QES" (in_bom yes) (on_board yes)
+  (symbol "Switch_Toggle_Dailywell_MS1T1B1M2QES_SPDT" (in_bom yes) (on_board yes)
     (property "Reference" "S" (at 19.05 7.62 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (property "Value" "1MS1T1B1M2QES" (at 19.05 5.08 0)
+    (property "Value" "Switch_Toggle_Dailywell_MS1T1B1M2QES_SPDT" (at 19.05 5.08 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (property "Footprint" "Eurorack:Switch_Toggle_Dailywell_MS1T1B1M2QES_SPDT" (at 19.05 -94.92 0)
@@ -1490,11 +1490,11 @@
       (number "3" (effects (font (size 1.27 1.27))))
     )
   )
-  (symbol "RD901F-40-15R1-B100K-00DL1" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "Potentiometer_Alpha_RD901F_B100K_Vertical" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "R" (id 0) (at -5.08 5.08 0)
       (effects (font (size 1.27 1.27)) (justify bottom left))
     )
-    (property "Value" "RD901F-40-15R1-B100K-00DL1" (id 1) (at -5.08 2.54 0)
+    (property "Value" "Potentiometer_Alpha_RD901F_B100K_Vertical" (id 1) (at -5.08 2.54 0)
       (effects (font (size 1.27 1.27)) (justify bottom left))
     )
     (property "Footprint" "Eurorack:Potentiometer_Alpha_RD901F_B100K_Vertical" (id 2) (at 0 0 0)
@@ -1536,7 +1536,7 @@
     (property "MANUFACTURER" "Alpha Taiwan" (id 15) (at 0 0 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
-    (symbol "RD901F-40-15R1-B100K-00DL1_0_0"
+    (symbol "Potentiometer_Alpha_RD901F_B100K_Vertical_0_0"
       (polyline
         (pts (xy -5.08 0.0) (xy -4.572 0.0)) (stroke (width 0.1524))
       )

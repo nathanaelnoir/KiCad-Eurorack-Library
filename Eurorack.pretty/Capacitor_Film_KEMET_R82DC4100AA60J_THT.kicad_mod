@@ -212,4 +212,15 @@
 			(xyz 0 0 0)
 		)
 	)
+	(model "C:/Users/eniederwieser/OneDrive - Fraunhofer Italia Research SCARL/Documents/MyKiCad/Eurorack-3dmodels/Capacitor_Film_KEMET_R82DC4100AA60J_THT.stp"
+		(offset
+			(xyz -1.2 2.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

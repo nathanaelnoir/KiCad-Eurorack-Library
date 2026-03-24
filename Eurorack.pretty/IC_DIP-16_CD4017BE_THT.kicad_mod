@@ -1154,4 +1154,15 @@
 			(xyz -90 -0 -0)
 		)
 	)
+	(model "C:/Users/eniederwieser/OneDrive - Fraunhofer Italia Research SCARL/Documents/MyKiCad/Eurorack-3dmodels/IC_DIP-16_CD4017BE_THT.stp"
+		(offset
+			(xyz -3.75 9 2.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

@@ -262,4 +262,15 @@
 			(xyz -0 -90 90)
 		)
 	)
+	(model "C:/Users/eniederwieser/OneDrive - Fraunhofer Italia Research SCARL/Documents/MyKiCad/Eurorack-3dmodels/Trimmer_Bourns_3296W_50k_THT.stp"
+		(offset
+			(xyz 2.2 2 10)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -90 90)
+		)
+	)
 )

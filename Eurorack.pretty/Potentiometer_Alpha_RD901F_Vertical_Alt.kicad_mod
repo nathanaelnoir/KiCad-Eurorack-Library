@@ -1,4 +1,4 @@
-(footprint "RD901F"
+(footprint "Potentiometer_Alpha_RD901F_Vertical_Alt"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -14,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" "RD901F"
+	(property "Value" "Potentiometer_Alpha_RD901F_Vertical_Alt"
 		(at 9.475 7.5 0)
 		(layer "F.Fab")
 		(uuid "c5ed8fdb-8ec1-4976-8ef3-30d5d2192a59")
@@ -151,45 +151,16 @@
 		(layer "F.SilkS")
 		(uuid "bf71b7e1-9e48-422c-8d2c-4876c3c0fff6")
 	)
-	(fp_line
-		(start -8.504 -6.65)
-		(end 5.1 -6.65)
+	(fp_rect
+		(start -9.5 -6.5)
+		(end 9.5 6.5)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
+		(fill no)
 		(layer "F.CrtYd")
-		(uuid "57547cf2-cf0c-4262-b180-4adefcab24a5")
-	)
-	(fp_line
-		(start -8.504 6.65)
-		(end -8.504 -6.65)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "60839aae-c0e9-4ee1-b6d5-5ef6af7cb312")
-	)
-	(fp_line
-		(start 5.1 -6.65)
-		(end 5.1 6.65)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "59af8ff4-9abe-4cbd-a323-5e93b763350c")
-	)
-	(fp_line
-		(start 5.1 6.65)
-		(end -8.504 6.65)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "1e296137-8294-4616-89b4-80686f74f7fa")
+		(uuid "aad6d380-814c-4311-95f6-ccbe5c2f5a78")
 	)
 	(fp_line
 		(start -6.5 -4.75)
@@ -288,7 +259,7 @@
 		(uuid "dc0c83b1-33d1-4f7b-a534-3ea38d5b8664")
 	)
 	(embedded_fonts no)
-	(model "/Users/sarahmair/Documents/KiCad/KiCad-Eurorack-Library/kicad-packages3d/RD901F-40-15F.stp"
+	(model "${KICAD_USER_3DMODEL_DIR}/Potentiometer_Alpha_RD901F_Vertical_Alt.stp"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -356,7 +356,7 @@
 		(uuid "2cb68f83-d970-4622-9f75-21dc44fbe0c1")
 	)
 	(embedded_fonts no)
-	(model "${KISYS3DMOD}/AudioJacks.3dshapes/PJ398SM.step"
+	(model "${KICAD_USER_3DMODEL_DIR}/Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -367,7 +367,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KISYS3DMOD}/AudioJacks.3dshapes/PJ398SM_Hex_nut.step"
+	(model "${KICAD_USER_3DMODEL_DIR}/Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_Hex_nut.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -378,40 +378,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KISYS3DMOD}/AudioJacks.3dshapes/PJ398SM_Knurl_nut.step"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
-	(model "/Volumes/Macintosh HD/Users/sarahmair/Downloads/AudioJacks-main/AudioJacks.3dshapes/PJ398SM.step"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
-	(model "C:/Users/eniederwieser/Downloads/3d files jack/PJ398SM_Knurl_nut.step"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
-	(model "/Users/sarahmair/Documents/KiCad/KiCad-Eurorack-Library/kicad-packages3d/PJ398SM_Knurl_nut.step"
+	(model "${KICAD_USER_3DMODEL_DIR}/Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_Knurl_nut.step"
 		(offset
 			(xyz 0 0 0)
 		)

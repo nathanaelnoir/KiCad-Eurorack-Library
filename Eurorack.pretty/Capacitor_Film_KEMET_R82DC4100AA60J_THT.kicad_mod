@@ -1,4 +1,4 @@
-(footprint "Kemet Film Cap"
+(footprint "Capacitor_Film_KEMET_R82DC4100AA60J_THT"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -201,7 +201,7 @@
 		(uuid "6286f050-b5fb-4f9a-9406-3b54673642cd")
 	)
 	(embedded_fonts no)
-	(model "R82DC4100AA60J.stp"
+	(model "${KICAD_USER_3DMODEL_DIR}/Capacitor_Film_KEMET_R82DC4100AA60J_THT.stp"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -210,17 +210,6 @@
 		)
 		(rotate
 			(xyz 0 0 0)
-		)
-	)
-	(model "/Users/sarahmair/Documents/KiCad/KiCad-Eurorack-Library/kicad-packages3d/Kemet Film Cap.stp"
-		(offset
-			(xyz -1.25 2.5 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -90 -0 -0)
 		)
 	)
 )

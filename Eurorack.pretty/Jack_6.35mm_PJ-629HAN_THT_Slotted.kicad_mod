@@ -1,4 +1,4 @@
-(footprint "Jack_6.35mm_PJ_629HAN_slots"
+(footprint "Jack_6.35mm_PJ-629HAN_THT_Slotted"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -14,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" "Jack_6.35mm_PJ_629HAN_slots"
+	(property "Value" "Jack_6.35mm_PJ-629HAN_THT_Slotted"
 		(at 0 10 0)
 		(layer "F.Fab")
 		(uuid "ab8eb673-11ba-49fb-b9ae-2ac3476f5266")
@@ -281,7 +281,7 @@
 		(uuid "71099435-18c0-4848-b321-89db93f8c507")
 	)
 	(embedded_fonts no)
-	(model "/Users/sarahmair/Downloads/SJ-63083A.STEP"
+	(model "${KICAD_USER_3DMODEL_DIR}/Jack_6.35mm_PJ-629HAN_THT_Slotted.step"
 		(offset
 			(xyz 0 0 3)
 		)
@@ -290,17 +290,6 @@
 		)
 		(rotate
 			(xyz -90 -0 -0)
-		)
-	)
-	(model "/Users/sarahmair/Documents/KiCad/KiCad-Eurorack-Library/kicad-packages3d/SJ-63083A.STEP"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
 		)
 	)
 )

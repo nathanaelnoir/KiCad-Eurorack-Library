@@ -2,7 +2,7 @@ Attribution and 3D model ownership
 
 Third-party 3D models
 
-Some 3D models included in `kicad-packages3d/` were not created by me and I do not know the original authors or copyright holders.
+Some 3D models included in `Eurorack-3dmodels/` were not created by me and I do not know the original authors or copyright holders.
 
 If you are the copyright holder or know who created a specific 3D model in this repository, please open an issue or submit a pull request with the correct attribution information. I will gladly update the repository to credit the original author, add licensing information, or remove the file at your request.
 

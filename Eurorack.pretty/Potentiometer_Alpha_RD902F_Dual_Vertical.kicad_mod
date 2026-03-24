@@ -1,4 +1,4 @@
-(footprint "Potentiometer_Alpha_RD902F-40-00D_Dual_Vertical_CircularHoles_centered"
+(footprint "Potentiometer_Alpha_RD902F_Dual_Vertical"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "Potentiometer_Alpha_RD902F-40-00D_Dual_Vertical_CircularHoles_centered"
+	(property "Value" "Potentiometer_Alpha_RD902F_Dual_Vertical"
 		(at -7.5 7.66 180)
 		(layer "F.Fab")
 		(uuid "cbe918c4-993c-4988-910a-9298d42d9373")
@@ -320,7 +320,7 @@
 		(uuid "3a57884d-650a-4424-a6ee-c7419785905a")
 	)
 	(embedded_fonts no)
-	(model "/Users/sarahmair/Downloads/RD902F-40-00D/RD902F-40-00D.stp"
+	(model "${KICAD_USER_3DMODEL_DIR}/Potentiometer_Alpha_RD902F_Dual_Vertical.stp"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -329,17 +329,6 @@
 		)
 		(rotate
 			(xyz -0 -0 90)
-		)
-	)
-	(model "/Users/sarahmair/Documents/KiCad/KiCad-Eurorack-Library/kicad-packages3d/RD902F-40-00D.stp"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
 		)
 	)
 )

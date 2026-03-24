@@ -1,4 +1,4 @@
-(footprint "2MS1T1B1M2QES"
+(footprint "Switch_Toggle_Dailywell_MS1T1B1M2QES_SPDT"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "2MS1T1B1M2QES"
+	(property "Value" "Switch_Toggle_Dailywell_MS1T1B1M2QES_SPDT"
 		(at 0 -2.54 0)
 		(layer "F.SilkS")
 		(hide yes)
@@ -251,7 +251,7 @@
 		(uuid "81fbfed0-fd31-45a0-9444-04483d0d6c0b")
 	)
 	(embedded_fonts no)
-	(model "/Users/sarahmair/Documents/KiCad/KiCad-Eurorack-Library/kicad-packages3d/2MS1T1B1M2QES.stp"
+	(model "${KICAD_USER_3DMODEL_DIR}/Switch_Toggle_Dailywell_MS1T1B1M2QES_SPDT.stp"
 		(offset
 			(xyz 0 2.5 0)
 		)

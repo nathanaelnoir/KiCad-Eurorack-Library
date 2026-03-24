@@ -1,4 +1,4 @@
-(footprint "1 Pole 8 Step Switch Alpha"
+(footprint "Switch_Rotary_Alpha_SR1712F_1P8T"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "1 Pole 8 Step Switch Alpha"
+	(property "Value" "Switch_Rotary_Alpha_SR1712F_1P8T"
 		(at -5 -9.475 0)
 		(layer "F.SilkS")
 		(hide yes)
@@ -334,20 +334,9 @@
 		(uuid "41bc51b1-3b9e-440e-b31d-fca9598b7db4")
 	)
 	(embedded_fonts no)
-	(model "SR1712F-0108-20F0A-N9-N-027.stp"
+	(model "${KICAD_USER_3DMODEL_DIR}/Switch_Rotary_Alpha_SR1712F_1P8T.stp"
 		(offset
 			(xyz -5 10.25 0.94)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -90 -0 -0)
-		)
-	)
-	(model "/Users/sarahmair/Documents/KiCad/KiCad-Eurorack-Library/kicad-packages3d/SR1712F-0108-20F0A-N9-N-027.stp"
-		(offset
-			(xyz -5 10.25 0)
 		)
 		(scale
 			(xyz 1 1 1)

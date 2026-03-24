@@ -1210,7 +1210,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Eurorack:Switch_Rotary_Alpha_SR1712F_1P8T"
@@ -1848,7 +1847,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Eurorack:Switch_Toggle_Dailywell_MS1T1B1M2QES_SPDT"

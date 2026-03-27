@@ -524,4 +524,15 @@
 			(xyz -90 -0 -0)
 		)
 	)
+	(model "/Users/sarahmair/Documents/KiCad/KiCad-Eurorack-Library/Eurorack-3dmodels/Arduino Nano.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

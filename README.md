@@ -11,7 +11,7 @@ The current library set contains:
 - a consolidated KiCad symbol library in `Eurorack-symbols/`
 - a KiCad footprint library in `Eurorack.pretty/`
 - STEP 3D models in `Eurorack-3dmodels/`
-- SVG logo exports in `Eurorack-logos/`
+- SVG and PNG logo exports in `Eurorack-logos/`
 - reusable schematic blocks in `Eurorack.kicad_blocks/`
 - custom worksheet templates in `Eurorack-templates/`
 
@@ -24,7 +24,7 @@ At the moment, the repository is centered on Eurorack panel hardware, supporting
 | `Eurorack-symbols/` | Consolidated symbol library directory containing `Eurorack.kicad_sym` |
 | `Eurorack.pretty/` | Footprint library directory ready to add through KiCad's Footprint Library Manager |
 | `Eurorack-3dmodels/` | STEP models used by the custom footprints |
-| `Eurorack-logos/` | SVG exports for the Eurorack symbol, wordmark, and combined lockups |
+| `Eurorack-logos/` | SVG source exports plus PNG render exports for the Eurorack symbol, wordmark, and combined lockups |
 | `Eurorack.kicad_blocks/` | Reusable schematic blocks for power and subsystem building |
 | `Eurorack-templates/` | KiCad worksheet template assets |
 
@@ -66,6 +66,7 @@ Current footprint library contents:
 | `RoHs` | RoHS compliance board-art/logo footprint |
 | `Switch_Rotary_Alpha_SR1712F_1P8T` | Alpha-style rotary switch, 1 pole 8 throw |
 | `Switch_Toggle_Dailywell_MS1T1B1M2QES_SPDT` | Dailywell SPDT toggle switch |
+| `Switch_Toggle_Dailywell_MS3T1B1M2QES_SPDT_1` | Alternate Dailywell SPDT toggle switch footprint variant |
 | `Trimmer_Bourns_3296W_50k_THT` | Bourns 3296W trimmer, 50 kOhm |
 
 ### 3D models
@@ -111,21 +112,46 @@ The template folder currently contains:
 
 ### Logos
 
-The `Eurorack-logos/` folder contains icon-only, wordmark-only, and combined lockup SVG exports.
+The `Eurorack-logos/` folder contains icon-only, wordmark-only, and combined lockup exports in both SVG and PNG form.
 
-The logo files now use lowercase English kebab-case names:
+SVG exports in `Eurorack-logos/` currently include:
 
 - `eurorack-symbol-solid.svg`
 - `eurorack-symbol-outline.svg`
+- `eurorack-symbol-outline-thicker.svg`
+- `eurorack-symbol-solid-with-accent-lines.svg`
+- `eurorack-symbol-outline-with-accent-lines.svg`
 - `eurorack-wordmark-solid.svg`
 - `eurorack-wordmark-outline.svg`
 - `eurorack-lockup-solid.svg`
+- `eurorack-lockup-solid-with-accent-lines.svg`
 - `eurorack-lockup-outline.svg`
+- `eurorack-lockup-outline-with-accent-lines.svg`
+- `eurorack-lockup-outline-with-solid-symbol.svg`
+- `eurorack-lockup-outline-with-solid-symbol-and-accent-lines.svg`
 
-Variant suffixes are used where needed:
+PNG exports in `Eurorack-logos/png/` mirror those logo variants and currently include:
+
+- `eurorack-symbol-solid.png`
+- `eurorack-symbol-outline.png`
+- `eurorack-symbol-outline-thicker.png`
+- `eurorack-symbol-solid-with-accent-lines.png`
+- `eurorack-symbol-outline-with-accent-lines.png`
+- `eurorack-wordmark-solid.png`
+- `eurorack-wordmark-outline.png`
+- `eurorack-lockup-solid.png`
+- `eurorack-lockup-solid-with-accent-lines.png`
+- `eurorack-lockup-outline.png`
+- `eurorack-lockup-outline-with-accent-lines.png`
+- `eurorack-lockup-outline-with-solid-symbol.png`
+- `eurorack-lockup-outline-with-solid-symbol-and-accent-lines.png`
+- `certificates.png`
+
+Naming stays in lowercase English kebab-case. Variant suffixes are used where needed:
 
 - `with-accent-lines` replaces the old mixed-language `Striche` naming
 - `with-solid-symbol` identifies the hybrid outline-wordmark plus filled-symbol exports
+- `outline-thicker` identifies the heavier outline-only symbol variant
 
 ## KiCad setup
 
